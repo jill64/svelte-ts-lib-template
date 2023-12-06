@@ -7,8 +7,7 @@
   "bugs": "https://github.com/jill64/sentry-sveltekit-edge/issues",
   "homepage": "https://github.com/jill64/sentry-sveltekit-edge#readme",
   "files": [
-    "dist",
-    "!**/*.test.*"
+    "dist"
   ],
   "keywords": [],
   "repository": {
