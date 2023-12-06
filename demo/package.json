@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && vite preview",
+    "lint": "npm run check && npx eslint .",
+    "format": "npx @jill64/psx",
+    "check": "svelte-kit sync && npx svelte-check"
+  },
+  "prettier": "@jill64/prettier-config",
+  "devDependencies": {
+    "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
+    "@jill64/eslint-config-svelte": "1.0.0",
+    "@sveltejs/adapter-cloudflare": "2.3.4",
+    "vite": "4.5.1"
+  }
+}
