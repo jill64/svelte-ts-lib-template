@@ -1,19 +1,9 @@
 {
-  "name": "svelte-ts-lib-template",
-  "description": "",
+  "name": "",
   "type": "module",
-  "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
-  "bugs": "https://github.com/jill64/sentry-sveltekit-edge/issues",
-  "homepage": "https://github.com/jill64/sentry-sveltekit-edge#readme",
   "files": [
     "dist"
   ],
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jill64/sentry-sveltekit-edge.git"
-  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -42,7 +32,7 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-ts": "1.0.1",
-    "@jill64/playwright-config": "1.4.2",
+    "@jill64/playwright-config": "2.1.0",
     "@jill64/prettier-config": "1.0.0",
     "@playwright/test": "1.40.1",
     "@sveltejs/kit": "1.27.7",
