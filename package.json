@@ -36,7 +36,7 @@
     "@jill64/playwright-config": "2.3.0",
     "@jill64/prettier-config": "1.0.0",
     "@playwright/test": "1.44.1",
-    "@sveltejs/kit": "2.5.10",
+    "@sveltejs/kit": "2.5.11",
     "svelte": "4.2.18",
     "typescript": "5.4.5",
     "vitest": "1.6.0"
