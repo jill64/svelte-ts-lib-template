@@ -13,13 +13,13 @@ importers:
         version: 1.1.41(typescript@5.6.2)
       '@jill64/playwright-config':
         specifier: 2.4.1
-        version: 2.4.1(@playwright/test@1.46.1)
+        version: 2.4.1(@playwright/test@1.47.2)
       '@jill64/prettier-config':
         specifier: 1.0.0
         version: 1.0.0
       '@playwright/test':
-        specifier: 1.46.1
-        version: 1.46.1
+        specifier: 1.47.2
+        version: 1.47.2
       '@sveltejs/kit':
         specifier: 2.5.28
         version: 2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.2)))(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.2))
@@ -479,8 +479,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@playwright/test@1.46.1':
-    resolution: {integrity: sha512-Fq6SwLujA/DOIvNC2EL/SojJnkKf/rAwJ//APpJJHRyMi1PdKrY3Az+4XNQ51N4RTbItbIByQ0jgd1tayq1aeA==}
+  '@playwright/test@1.47.2':
+    resolution: {integrity: sha512-jTXRsoSPONAs8Za9QEQdyjFn+0ZQFjCiIztAIF6bi1HqhBzG9Ma7g1WotyiGqFSBRZjIEqMdT8RUlbk1QVhzCQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1388,13 +1388,13 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  playwright-core@1.46.1:
-    resolution: {integrity: sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==}
+  playwright-core@1.47.2:
+    resolution: {integrity: sha512-3JvMfF+9LJfe16l7AbSmU555PaTl2tPyQsVInqm3id16pdDfvZ8TTZ/pyzmkbDrZTQefyzU7AIHlZqQnxpqHVQ==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.46.1:
-    resolution: {integrity: sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng==}
+  playwright@1.47.2:
+    resolution: {integrity: sha512-nx1cLMmQWqmA3UsnjaaokyoUpdVaaDhJhMoxX2qj3McpjnsqFHs516QAKYhqHAgOP+oCFTEOCOAaD1RgD/RQfA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2037,9 +2037,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@jill64/playwright-config@2.4.1(@playwright/test@1.46.1)':
+  '@jill64/playwright-config@2.4.1(@playwright/test@1.47.2)':
     dependencies:
-      '@playwright/test': 1.46.1
+      '@playwright/test': 1.47.2
 
   '@jill64/prettier-config@1.0.0': {}
 
@@ -2073,7 +2073,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -2087,9 +2087,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@playwright/test@1.46.1':
+  '@playwright/test@1.47.2':
     dependencies:
-      playwright: 1.46.1
+      playwright: 1.47.2
 
   '@polka/url@1.0.0-next.24': {}
 
@@ -2523,7 +2523,7 @@ snapshots:
 
   capnp-ts@0.7.0:
     dependencies:
-      debug: 4.3.5
+      debug: 4.3.7
       tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
@@ -3093,11 +3093,11 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  playwright-core@1.46.1: {}
+  playwright-core@1.47.2: {}
 
-  playwright@1.46.1:
+  playwright@1.47.2:
     dependencies:
-      playwright-core: 1.46.1
+      playwright-core: 1.47.2
     optionalDependencies:
       fsevents: 2.3.2
 
