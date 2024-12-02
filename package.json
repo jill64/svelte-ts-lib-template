@@ -39,6 +39,6 @@
     "@sveltejs/kit": "2.9.0",
     "svelte": "5.4.0",
     "typescript": "5.7.2",
-    "vitest": "2.1.7"
+    "vitest": "2.1.8"
   }
 }
