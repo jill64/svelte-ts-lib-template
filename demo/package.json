@@ -16,6 +16,6 @@
     "svelte": "5.11.2",
     "@sveltejs/kit": "2.10.1",
     "vite": "6.0.3",
-    "@sveltejs/vite-plugin-svelte": "5.0.1"
+    "@sveltejs/vite-plugin-svelte": "5.0.2"
   }
 }
