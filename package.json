@@ -42,7 +42,7 @@
     "@sveltejs/kit": "2.16.1",
     "svelte": "5.19.0",
     "typescript": "5.7.3",
-    "vitest": "3.0.3"
+    "vitest": "3.0.4"
   },
   "homepage": "https://github.com/jill64/svelte-ts-lib-template#readme",
   "bugs": "https://github.com/jill64/svelte-ts-lib-template/issues",
@@ -55,7 +55,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-ts-lib-template.git",
-    "image": "https://opengraph.githubassets.com/a10315fb2c8ed680cca4279240e84096ba549faafbcb4f2538841e3351fef8d6/jill64/svelte-ts-lib-template"
+    "image": "https://opengraph.githubassets.com/618bb4a6d3902b1493fca1eb45d1df1fb7ea8dd9944782aeab6b796b041274f6/jill64/svelte-ts-lib-template"
   },
   "keywords": [
     "svelte",
