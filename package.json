@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "workspaces": [
+    "demo"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -14,19 +17,19 @@
     }
   },
   "scripts": {
-    "dev": "cd demo && pnpm dev",
-    "build": "pnpm build:lib && pnpm build:demo && npx publint",
+    "dev": "cd demo && bun run dev",
+    "build": "bun run build:lib && bun run build:demo && npx publint",
     "build:lib": "tsc",
-    "build:demo": "cd demo && pnpm build",
-    "preview": "pnpm build:lib && cd demo && pnpm preview",
-    "prepack": "pnpm build:lib",
-    "lint": "pnpm build:lib && pnpm lint:lib && pnpm lint:demo",
+    "build:demo": "cd demo && bun run build",
+    "preview": "bun run build:lib && cd demo && bun run preview",
+    "prepack": "bun run build:lib",
+    "lint": "bun run build:lib && bun run lint:lib && bun run lint:demo",
     "lint:lib": "npx eslint .",
-    "lint:demo": "cd demo && pnpm lint",
-    "format": "pnpm format:lib && pnpm format:demo",
+    "lint:demo": "cd demo && bun run lint",
+    "format": "bun run format:lib && bun run format:demo",
     "format:lib": "npx prettier -w .",
-    "format:demo": "cd demo && pnpm format",
-    "test": "vitest",
+    "format:demo": "cd demo && bun run format",
+    "test": "bun test **/*.test.ts",
     "test:e2e": "playwright test"
   },
   "peerDependencies": {
@@ -35,14 +38,14 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "2.0.5",
-    "@jill64/playwright-config": "2.4.2",
+    "@jill64/eslint-config-ts": "2.0.17",
+    "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",
-    "@playwright/test": "1.50.1",
-    "@sveltejs/kit": "2.16.1",
-    "svelte": "5.19.6",
-    "typescript": "5.7.3",
-    "vitest": "3.0.4"
+    "@playwright/test": "1.51.0",
+    "@sveltejs/kit": "2.19.2",
+    "svelte": "5.23.1",
+    "typescript": "5.8.2",
+    "@types/bun": "1.2.5"
   },
   "homepage": "https://github.com/jill64/svelte-ts-lib-template#readme",
   "bugs": "https://github.com/jill64/svelte-ts-lib-template/issues",
