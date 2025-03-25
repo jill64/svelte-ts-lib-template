@@ -45,7 +45,7 @@
     "@sveltejs/kit": "2.19.2",
     "svelte": "5.23.1",
     "typescript": "5.8.2",
-    "@types/bun": "1.2.5"
+    "@types/bun": "1.2.6"
   },
   "homepage": "https://github.com/jill64/svelte-ts-lib-template#readme",
   "bugs": "https://github.com/jill64/svelte-ts-lib-template/issues",
