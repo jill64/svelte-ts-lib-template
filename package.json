@@ -42,7 +42,7 @@
     "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",
     "@playwright/test": "1.51.0",
-    "@sveltejs/kit": "2.19.2",
+    "@sveltejs/kit": "2.20.6",
     "svelte": "5.23.1",
     "typescript": "5.8.2",
     "@types/bun": "1.2.5"
@@ -58,7 +58,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-ts-lib-template.git",
-    "image": "https://opengraph.githubassets.com/feef0c311d7f584d0b7c2dc4eb10635ec4590eb2218323183fe45c0fca26f413/jill64/svelte-ts-lib-template"
+    "image": "https://opengraph.githubassets.com/15bdafe0e73c57dbf5ebbf4ceb2833a749f5db0dcf468d05b16967fc608e15c8/jill64/svelte-ts-lib-template"
   },
   "keywords": [
     "svelte",
